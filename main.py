@@ -55,7 +55,7 @@ async def startup_event():
 
         # Load Lung Cancer model from Azure
         app.state.lung_xray_model = load_model_from_azure(
-            "https://scanalyzestorage.blob.core.windows.net/loadmodel/chest_xray.py"
+            "https://scanalyzestorage.blob.core.windows.net/loadmodel/resnet50_lung_xray.h5"
         )
         logging.info("Lung X-Ray model loaded successfully")
         
