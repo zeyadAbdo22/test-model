@@ -4,8 +4,8 @@ from PIL import Image
 from io import BytesIO
 import json
 import numpy as np
-from utils import preprocess_image
-from similarity import check_similarity
+from ..utils import preprocess_image
+from ..similarity import check_similarity
 from fastapi.responses import JSONResponse
 
 # Configure logging
