@@ -31,7 +31,7 @@ async def predict(request: Request, file: UploadFile = File(...)):
         logger.info(f"Received prediction request for file: {file.filename}")
 
         # Get model from app state
-        model = request.app.state.chest_model
+        model = request.app.state.lung_xray_model
         if model is None:
             raise ValueError("Model not initialized")
 
