@@ -12,8 +12,8 @@ from utils import load_model_from_azure
 from API.brain_xray import router as brain_router
 from API.lung_xray import router as lung_xray_router
 from API.lung_tissues import router as lung_tissues_router
-from API.Kidney import router as kidnee_router
-from API.knee import router as knee_router
+from API.Kidney import router as kidney_router
+from API.knee import router as Knee_router
 from API.Diabetic_Retinopathy import router as Diabetic_Retinopathy_router
 
 # Configure environment variables
